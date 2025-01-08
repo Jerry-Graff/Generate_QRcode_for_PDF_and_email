@@ -40,3 +40,7 @@ An optional `main.py` script can orchestrate these tasks, providing a single ent
    ```bash
    git clone https://github.com/YourUsername/Convert_PDF_to_QRcode_and_Send.git
    cd Convert_PDF_to_QRcode_and_Send
+
+### Bugs
+
+- **Email Sends to Junk** As it is using SMPT the recipient of the email will most likely recieve the email in their junk folder.
